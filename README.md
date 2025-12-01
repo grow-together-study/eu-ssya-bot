@@ -2,7 +2,6 @@
 > 💡 개인이 원하는 블로그·RSS 피드를 등록해두면, 신규 글이 올라올 때 자동으로 디스코드 채널에 알림을 보내주는 봇입니다.  
 > Windows + Python + VS Code 환경 기준으로 제작되었습니다.
 
----
 
 
 ## ✨ Features
@@ -13,7 +12,6 @@
 - 티스토리, Velog 등 RSS 제공 블로그 자동 지원
 - JSON 기반의 간단한 로컬 스토리지 사용 (원하면 SQLite/Redis로 확장 가능)
 
----
 
 ## 📦 Tech Stack
 
@@ -23,7 +21,6 @@
 - **Editor:** VS Code
 - **Storage:** JSON
 
----
 
 ## 📁 Project Structure
 ```bash
@@ -35,7 +32,6 @@ discord-bot/
 └── README.md
 ```
 
----
 
 ## 🔧 Installation (Windows)
 
