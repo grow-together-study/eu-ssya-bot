@@ -16,23 +16,18 @@
 ## 📦 Tech Stack
 
 - **Language:** Python 3.14+
-- **Discord Library:** discord.py
+- **Discord Library:** discord.py (Slash Commands)
 - **RSS Parser:** feedparser
 - **Editor:** VS Code
 - **Storage:** JSON
-
-
-## 📁 Project Structure
-```bash
-```
-
+- **OS:** window 기준 설명
 
 ## 🔧 Installation (Windows)
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/yourname/discord-rss-bot.git
-cd discord-rss-bot
+git clone https://github.com/grow-together-study/eu-ssya-bot.git
+cd eu-ssya-bot
 ```
 ### 2. Create & activate virtual environment
 ```bash
@@ -67,14 +62,14 @@ python bot.py
 ## 💬 Bot Commands
 | Command                 | 설명                |
 | ----------------------- | ----------------- |
-| `!ping`                 | 봇 응답 테스트          |
-| `!rss_add <RSS_URL>`    | 현재 채널에 RSS 등록     |
-| `!rss_list`             | 등록된 RSS 목록 조회     |
-| `!rss_remove <RSS_URL>` | 현재 채널에서 해당 RSS 삭제 |
+| `/ping`                 | 봇 응답 테스트          |
+| `/rss add <RSS_URL>`    | 현재 채널에 RSS 등록     |
+| `/rss list`             | 등록된 RSS 목록 조회     |
+| `/rss remove <RSS_URL>` | 현재 채널에서 해당 RSS 삭제 |
 
 ## 🔄 How It Works
 
-1. 유저가 !rss_add https://xxx.tistory.com/rss 입력
+1. 유저가 /rss add https://xxx.tistory.com/rss 입력
 2. 봇이 해당 RSS 주소를 JSON에 저장
 3. 백그라운드 루프에서 일정 간격으로 RSS 최신 글 확인
 4. 새 글 발견 시 디스코드 채널에 자동 메시지 전송
