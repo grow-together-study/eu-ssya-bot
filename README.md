@@ -24,12 +24,6 @@
 
 ## 📁 Project Structure
 ```bash
-discord-bot/
-├── bot.py # 디스코드 봇 메인 로직
-├── rss_data.json # RSS 등록 정보 저장 파일
-├── .env # 디스코드 토큰 저장 (gitignore 추천)
-├── requirements.txt
-└── README.md
 ```
 
 
