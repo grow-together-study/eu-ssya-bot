@@ -1,4 +1,4 @@
-# eu-ssya-bot RSS Discord Bot
+# 📰 eu-ssya-bot RSS Discord Bot
 > 💡 개인이 원하는 블로그·RSS 피드를 등록해두면, 신규 글이 올라올 때 자동으로 디스코드 채널에 알림을 보내주는 봇입니다.  
 > Windows + Python + VS Code 환경 기준으로 제작되었습니다.
 
